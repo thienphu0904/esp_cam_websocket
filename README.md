@@ -25,6 +25,7 @@ git checkout master
 cd esp-idf-websocket-camera
 idf.py set-target {esp32/esp32s3}
 idf.py menuconfig
+
 idf.py flash monitor
 ```
 
@@ -34,4 +35,4 @@ Open index.html included in this project.
 Push connect server button.
 Result:    
 
-
+![5f9a3662-0495-4d76-986d-cbf305bc0272](https://github.com/thienphu0904/esp_cam_websocket/assets/167863085/363fe215-0172-430e-94db-d2340074e316)
